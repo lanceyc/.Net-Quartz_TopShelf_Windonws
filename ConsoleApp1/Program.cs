@@ -11,6 +11,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //星期五
             var fac = HostFactory.New(x =>
             {
                 x.Service<Manager>(s =>
